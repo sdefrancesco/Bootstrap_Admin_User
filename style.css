@@ -1,0 +1,25 @@
+.avatar {
+    border-radius: 60px;
+    height: 100px;
+    width: 100px;
+    background-color: #e7e7e7;
+}
+
+.color-grey {
+    color: #8d8d8d
+}
+
+.list-none {
+    list-style-type: none;
+    padding: 0px;
+}
+
+.bg-custom {
+    background-color: rgb(81 144 237);
+}
+
+.image {
+    width: 100%;
+    height: 200px;
+    background-color: #e7e7e7;
+}
