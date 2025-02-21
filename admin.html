@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Admin Dashboard</title>
 </head>
-<body class="bg-custom">
+<body class="bg-primary">
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container">
           <a class="navbar-brand" href="#">Logo</a>
@@ -25,8 +25,10 @@
           </div>
         </div>
       </nav>
-      
-    <h1 class="display-1 text-white mt-3">
+      <br>
+      <br>
+
+    <h1 class="display-1 text-white mt-4 mb-3">
         <div class="container">
             Welcome Back, Joe
 
@@ -38,15 +40,17 @@
             <div class="col-md-9">
                 <nav aria-label="breadcrumb" class="mb-5 mt-3">
                     <ol class="breadcrumb">
-                      <li class="breadcrumb-item"><a href="#" style="opacity: .6" class="link-light link-underline link-underline-opacity-0">Home</a></li>
+                      <li class="breadcrumb-item"><a href="#" style="opacity: .6" class="link-light link-underline link-underline-opacity-0">home</a></li>
                       <li class="breadcrumb-item active" aria-current="page" style="color:white">administrator dashboard</li>
                     </ol>
                     </nav>
             </div>
             <div class="col-md-3">
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search Filter" aria-label="Search">
-                  </form>
+                <div class="d-flex align-items-center justify-content-center">
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2 input-transparent" type="search" placeholder="Search Filter" aria-label="Search">
+                      </form>
+                </div>
                 
             </div>
         </div>
@@ -55,16 +59,17 @@
             <div class="col-md-3">
                 <nav class="nav flex-column">
                     <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-clipboard-data text-white me-2"></i>Statistics</a>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Data</a>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Users</a>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Inventory</a>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Orders</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-database-fill text-white me-2"></i>Data</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-people text-white me-2"></i>Users</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-diagram-3 text-white me-2"></i>Inventory</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-box text-white me-2"></i>Orders</a>
                     <br>
                     <br>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-search text-white me-2"></i>Search</a>
                     <br>
                     <br>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Settings</a>
-                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#">Log Out</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-gear me-2 text-white"></i>Settings</a>
+                    <a class="nav-link link-light link-underline link-underline-opacity-0" href="#"><i class="bi bi-dash-circle text-white me-2"></i>Log Out</a>
                   </nav>
             </div>
             <div class="col-md-9">
@@ -73,7 +78,7 @@
                         <h6 class="text-white">
                             <i class="bi bi-graph-up-arrow text-white me-2"></i>
                             Revenue</h6>
-                        <div class="card p-3">
+                        <div class="card p-3 shadow-lg">
                             <div class="card-body">
                                 <img src="images/graph.png" class="mb-3" width="100%" height='100%'alt="">
                                 <img src="images/months.png" width="100%" height="100%" alt="">
@@ -82,11 +87,12 @@
                     </div>
                     <div class="col-md-6 mt-4">
                         <h6 class="text-white">
+                            <i class="bi bi-diagram-3 text-white me-2"></i>
                             Inventory
                         </h6>
                         <div class="row">
-                            <div class="col-md-6">
-                                <div class="card p-4 mb-3">
+                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                <div class="card shadow-lg p-4 mb-3">
                                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                         <div class="avatar"></div>
                                         <br>
@@ -95,8 +101,8 @@
                                 </div>
 
                             </div>
-                            <div class="col-md-6">
-                                <div class="card p-4 mb-3">
+                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                <div class="card shadow-lg p-4 mb-3">
                                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                         <div class="avatar"></div>
                                         <br>
@@ -104,8 +110,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="card p-4 mb-3">
+                            <div class="col-md-6 col-lg-6 col-sm-12 col-md-12">
+                                <div class="card shadow-lg p-4 mb-3">
                                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                         <div class="avatar"></div>
                                         <br>
@@ -113,8 +119,8 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-6">
-                                <div class="card p-4 mb-3">
+                            <div class="col-lg-6 col-sm-12 col-md-12">
+                                <div class="card shadow-lg p-4 mb-3">
                                     <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                         <div class="avatar"></div>
                                         <br>
@@ -125,21 +131,21 @@
                         </div>
                     </div>
                     <div class="col-md-6 mt-4 mb-4">
-                        <h6 class="text-white">Users</h6>
-                        <div class="card p-4 mb-3">
+                        <h6 class="text-white"><i class="bi bi-people text-white me-2"></i>Users</h6>
+                        <div class="card shadow-lg p-4 mb-3">
                             <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                 <div class="avatar"></div>
                                 <br>
                                 <h6>John Smith</h6>
-                                <small>johnnyappleseed@gmail.com</small>
+                                <small class="color-grey">johnnyappleseed@gmail.com</small>
                             </div>
                         </div>
-                        <div class="card p-4">
+                        <div class="card shadow-lg p-4">
                             <div class="card-body d-flex align-items-center justify-content-center flex-column">
                                 <div class="avatar mb-3"></div>
                                 <br>
                                 <h6>Jane Doe</h6>
-                                <small>JaneDoe@gmail.com</small>
+                                <small class="color-grey">JaneDoe@gmail.com</small>
                             </div>
                         </div>
                     </div>
